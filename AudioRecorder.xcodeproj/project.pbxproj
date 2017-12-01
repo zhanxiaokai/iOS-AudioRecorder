@@ -10,11 +10,15 @@
 		188EA2481E55D4FE00E858A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EA2471E55D4FE00E858A4 /* main.m */; };
 		188EA24B1E55D4FE00E858A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EA24A1E55D4FE00E858A4 /* AppDelegate.m */; };
 		188EA24E1E55D4FE00E858A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EA24D1E55D4FE00E858A4 /* ViewController.m */; };
-		188EA2511E55D4FE00E858A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188EA24F1E55D4FE00E858A4 /* Main.storyboard */; };
 		188EA2531E55D4FE00E858A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188EA2521E55D4FE00E858A4 /* Assets.xcassets */; };
 		188EA2561E55D4FE00E858A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188EA2541E55D4FE00E858A4 /* LaunchScreen.storyboard */; };
 		188EA2611E55D4FF00E858A4 /* AudioRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EA2601E55D4FF00E858A4 /* AudioRecorderTests.m */; };
 		188EA26C1E55D4FF00E858A4 /* AudioRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EA26B1E55D4FF00E858A4 /* AudioRecorderUITests.m */; };
+		188EA27A1E55D57300E858A4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EA2791E55D57300E858A4 /* ViewController.xib */; };
+		188EA2C31E55DC1500E858A4 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EA2C21E55DC1500E858A4 /* CommonUtil.m */; };
+		18A9E72D1E5C79F2002069FA /* AVAudioSession+RouteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9E72A1E5C79F2002069FA /* AVAudioSession+RouteUtils.m */; };
+		18A9E72E1E5C79F2002069FA /* ELAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9E72C1E5C79F2002069FA /* ELAudioSession.m */; };
+		18A9E7311E5C7A5D002069FA /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9E7301E5C7A5D002069FA /* AudioRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,6 @@
 		188EA24A1E55D4FE00E858A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		188EA24C1E55D4FE00E858A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		188EA24D1E55D4FE00E858A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		188EA2501E55D4FE00E858A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		188EA2521E55D4FE00E858A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188EA2551E55D4FE00E858A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188EA2571E55D4FE00E858A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 		188EA2671E55D4FF00E858A4 /* AudioRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188EA26B1E55D4FF00E858A4 /* AudioRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRecorderUITests.m; sourceTree = "<group>"; };
 		188EA26D1E55D4FF00E858A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EA2791E55D57300E858A4 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		188EA2C11E55DC1500E858A4 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		188EA2C21E55DC1500E858A4 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		18A9E7291E5C79F2002069FA /* AVAudioSession+RouteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioSession+RouteUtils.h"; sourceTree = "<group>"; };
+		18A9E72A1E5C79F2002069FA /* AVAudioSession+RouteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioSession+RouteUtils.m"; sourceTree = "<group>"; };
+		18A9E72B1E5C79F2002069FA /* ELAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAudioSession.h; sourceTree = "<group>"; };
+		18A9E72C1E5C79F2002069FA /* ELAudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAudioSession.m; sourceTree = "<group>"; };
+		18A9E72F1E5C7A5D002069FA /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorder.h; sourceTree = "<group>"; };
+		18A9E7301E5C7A5D002069FA /* AudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +113,19 @@
 		188EA2451E55D4FE00E858A4 /* AudioRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				18A9E7281E5C79F2002069FA /* AudioSession */,
+				188EA2C01E55DC1500E858A4 /* utils */,
 				188EA2491E55D4FE00E858A4 /* AppDelegate.h */,
 				188EA24A1E55D4FE00E858A4 /* AppDelegate.m */,
 				188EA24C1E55D4FE00E858A4 /* ViewController.h */,
 				188EA24D1E55D4FE00E858A4 /* ViewController.m */,
-				188EA24F1E55D4FE00E858A4 /* Main.storyboard */,
 				188EA2521E55D4FE00E858A4 /* Assets.xcassets */,
 				188EA2541E55D4FE00E858A4 /* LaunchScreen.storyboard */,
 				188EA2571E55D4FE00E858A4 /* Info.plist */,
 				188EA2461E55D4FE00E858A4 /* Supporting Files */,
+				188EA2791E55D57300E858A4 /* ViewController.xib */,
+				18A9E72F1E5C7A5D002069FA /* AudioRecorder.h */,
+				18A9E7301E5C7A5D002069FA /* AudioRecorder.m */,
 			);
 			path = AudioRecorder;
 			sourceTree = "<group>";
@@ -138,6 +154,26 @@
 				188EA26D1E55D4FF00E858A4 /* Info.plist */,
 			);
 			path = AudioRecorderUITests;
+			sourceTree = "<group>";
+		};
+		188EA2C01E55DC1500E858A4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				188EA2C11E55DC1500E858A4 /* CommonUtil.h */,
+				188EA2C21E55DC1500E858A4 /* CommonUtil.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		18A9E7281E5C79F2002069FA /* AudioSession */ = {
+			isa = PBXGroup;
+			children = (
+				18A9E7291E5C79F2002069FA /* AVAudioSession+RouteUtils.h */,
+				18A9E72A1E5C79F2002069FA /* AVAudioSession+RouteUtils.m */,
+				18A9E72B1E5C79F2002069FA /* ELAudioSession.h */,
+				18A9E72C1E5C79F2002069FA /* ELAudioSession.m */,
+			);
+			path = AudioSession;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				188EA2561E55D4FE00E858A4 /* LaunchScreen.storyboard in Resources */,
+				188EA27A1E55D57300E858A4 /* ViewController.xib in Resources */,
 				188EA2531E55D4FE00E858A4 /* Assets.xcassets in Resources */,
-				188EA2511E55D4FE00E858A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A9E72E1E5C79F2002069FA /* ELAudioSession.m in Sources */,
 				188EA24E1E55D4FE00E858A4 /* ViewController.m in Sources */,
 				188EA24B1E55D4FE00E858A4 /* AppDelegate.m in Sources */,
+				18A9E7311E5C7A5D002069FA /* AudioRecorder.m in Sources */,
+				18A9E72D1E5C79F2002069FA /* AVAudioSession+RouteUtils.m in Sources */,
+				188EA2C31E55DC1500E858A4 /* CommonUtil.m in Sources */,
 				188EA2481E55D4FE00E858A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +354,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		188EA24F1E55D4FE00E858A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				188EA2501E55D4FE00E858A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		188EA2541E55D4FE00E858A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MY5GTD35UJ;
 				INFOPLIST_FILE = AudioRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MY5GTD35UJ;
 				INFOPLIST_FILE = AudioRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +548,7 @@
 				188EA2721E55D4FF00E858A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188EA2731E55D4FF00E858A4 /* Build configuration list for PBXNativeTarget "AudioRecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +557,7 @@
 				188EA2751E55D4FF00E858A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188EA2761E55D4FF00E858A4 /* Build configuration list for PBXNativeTarget "AudioRecorderUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +566,7 @@
 				188EA2781E55D4FF00E858A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
